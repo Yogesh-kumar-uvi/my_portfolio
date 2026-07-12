@@ -118,9 +118,9 @@ export const projects = [
       'Responsive for all Devices'
     ],
     challenges: 'Simulated full MERN-style functionality on the frontend, structuring components to make a future real backend easy to plug in.',
-    image: getProjectImage('AmritHospital.png'),
-    live: '#', // paste your live link here
-    repo: '#', // paste your repo link here
+    image: getProjectImage('amrit-hospital.png'),  
+    live: 'https://amrit-hospital-tau.vercel.app/',
+    repo: 'https://github.com/Yogesh-kumar-uvi/amrit-hospital', 
   },
   {
     id: 'ecommerce',
@@ -154,7 +154,6 @@ export const projects = [
       'Seller Product Management (Add, Edit & Delete)',
       'Responsive User Interface',
       'Secure Authentication & Authorization',
-      'Product Catalog & Search',
       'Role-Based Access Control'
     ],
     challenges:
@@ -186,15 +185,21 @@ export const projects = [
     repo: 'https://github.com/Yogesh-kumar-uvi/portfolio01',
   },
   {
-    id: 'quiz-app',
-    name: 'Quiz Time',
-    description: 'A 3-page quiz web app with 25 questions, sound effects, and score tracking.',
-    stack: ['JavaScript', 'HTML', 'CSS'],
-    features: ['25-question quiz flow', 'Web Audio API sound effects', 'Score saved with localStorage'],
-    challenges: 'Built fully responsive layouts across breakpoints using plain CSS (BEM methodology).',
-    image: getProjectImage('Quiz.png'),
-    live: '#', // paste your live link here
-    repo: '#', // paste your repo link here
+    id: 'travel-website',
+    name: 'Travel & Tourism Website',
+    description: 'A full-stack travel booking web application with destination browsing, booking management, and dynamic data integration.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+    features: [
+      'Destination listing with dynamic data from MySQL',
+      'Online tour booking system',
+      'Frontend-to-backend data fetching using PHP',
+      'Responsive design for mobile, tablet, and desktop',
+      'Booking details stored securely in MySQL database'
+    ],
+    challenges: 'Implemented seamless frontend-backend communication with PHP and MySQL while ensuring responsive layouts across all devices.',
+    image: getProjectImage('travel.png'),
+    live: 'https://travel-boking.netlify.app/',
+    repo: 'https://github.com/Yogesh-kumar-uvi/my_portfolio', 
   },
 ]
 
