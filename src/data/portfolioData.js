@@ -181,7 +181,7 @@ export const projects = [
     features: ['Dark/light theme with memory', 'Animated skill badges', 'Real email contact form'],
     challenges: 'Structured all content into a single data file so future updates need no code changes.',
     image: getProjectImage('Portfolio.png'),
-    live: '#', // paste your live link here
+    live: 'https://my-portfolio-yogesh-kumar-uvi.vercel.app/', 
     repo: 'https://github.com/Yogesh-kumar-uvi/portfolio01',
   },
   {
