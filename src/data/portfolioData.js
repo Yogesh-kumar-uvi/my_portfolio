@@ -28,7 +28,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/yogeshkumaryuvi/',
   instagram: 'https://www.instagram.com/yogeshkumaruvi/',
   twitter: 'https://x.com/YogeshKumaruvi',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Yogesh_Kumar_Resume.pdf',
   summary:
     "I'm a MERN Stack Developer from Lucknow, India, working in web development. I enjoy turning complex problems into simple, beautiful, and intuitive solutions through seamless design and efficient code.",
   bio:
