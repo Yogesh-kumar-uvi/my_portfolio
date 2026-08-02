@@ -105,6 +105,36 @@ export const projects = [
     live: 'https://healthcare-management-system-fjlj.vercel.app/',
     repo: 'https://github.com/Yogesh-kumar-uvi/Healthcare-Management-System',
   },
+
+  {
+  id: 'jobconnect',
+  name: 'JobConnect Pro',
+  description:
+    'A full-stack MERN job portal that connects job seekers with recruiters through secure authentication, job management, and application tracking.',
+  stack: [
+    'React',
+    'Node.js',
+    'Express',
+    'MongoDB',
+    'JWT',
+    'Redux Toolkit',
+    'Cloudinary'
+  ],
+  features: [
+    'Role-based authentication for recruiters and job seekers',
+    'Create, update, and manage job postings',
+    'One-click job application system',
+    'Application tracking dashboard',
+    'Resume upload with Cloudinary',
+    'Advanced job search and filtering',
+    'Responsive UI for all devices'
+  ],
+  challenges:
+    'Implemented secure JWT authentication, optimized MongoDB queries for faster job search, and managed global state efficiently using Redux Toolkit.',
+  image: getProjectImage('Job ConnectPro.png'),
+  live: 'https://jobconnect-pro-three.vercel.app/',
+  repo: 'https://github.com/Yogesh-kumar-uvi/Jobconnect-pro',
+},
   {
     id: 'amrit-hospital',
     name: 'Amrit Hospital',
